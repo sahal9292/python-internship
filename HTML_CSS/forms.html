@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style2.css" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <form action="">
+        <label for="name">Name:</label>
+        <input type="text" />
+
+        <label for="Password">Password:</label>
+        <input type="password" />
+
+        <label for="Email">Email:</label>
+        <input type="email" />
+
+        <label for="Age">Age:</label>
+        <input type="number" />
+
+        <label>Gender:</label>
+
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" />
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" />
+
+        <label>Hobbies:</label>
+
+        <label>
+          <input type="checkbox" name="hobbies[]" value="reading" />
+          Reading
+        </label>
+
+        <label>
+          <input type="checkbox" name="hobbies[]" value="sports" />
+          Sports
+        </label>
+
+        <label>
+          <input type="checkbox" name="hobbies[]" value="music" />
+          Music
+        </label>
+
+        <label>
+          <input type="checkbox" name="hobbies[]" value="gaming" />
+          Gaming
+        </label>
+
+        <label for="Dob">Date of Birth:</label>
+        <input type="date" id="Dob" name="Dob" />
+
+        <label for="resume">Resume:</label>
+        <input type="file" id="resume" name="resume" />
+
+        <label for="Qualification">Qualification:</label>
+        <select name="Qualification" id="Qualification">
+          <option value="SSC">SSC</option>
+          <option value="PlusTwo">PlusTwo</option>
+          <option value="UG">UG</option>
+          <option value="PG">PG</option>
+        </select>
+
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
